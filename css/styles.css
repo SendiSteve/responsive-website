@@ -36,7 +36,6 @@ body {
 #home-cover {
     height: 100%;
     background-image: url("../img/bg-home.jpg");
-    
 }
 
 #home-content-box {
@@ -62,13 +61,13 @@ body {
 /* ===================================================================================
                                             PARALLAX (Generic)
 ======================================================================================*/
+
 .bg-parallax {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-
 
 /* ===================================================================================
                                             BUTTONS (Generic)
@@ -92,4 +91,26 @@ body {
 .btn-white:focus {
     background-color: #fff;
     color: #41464b;
+}
+
+/* ===================================================================================
+                                            ANIMATE
+======================================================================================*/
+
+#home-cover,
+#home-heading,
+#home-btn {
+    animation-duration: .5s;
+}
+
+#home-cover {
+    animation-delay: .1s;
+}
+
+#home-heading {
+    animation-delay: .1s;
+}
+
+#home-btn {
+    animation-delay: .5s;
 }
