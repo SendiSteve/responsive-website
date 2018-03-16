@@ -2,17 +2,16 @@ module.exports = {
     "env": {
         "browser": true,
         "commonjs": true,
-        "es6": true
+        "es6": false,
+				"jquery" :true,
+				"animate": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
         "sourceType": "module"
     },
     "rules": {
-        "indent": [
-            "error",
-            "tab"
-        ],
+        "indent": [2,2],
         "linebreak-style": [
             "error",
             "unix"
@@ -21,9 +20,6 @@ module.exports = {
             "error",
             "double"
         ],
-        "semi": [
-            "error",
-            "never"
-        ]
+        "semi": [0]
     }
 };
