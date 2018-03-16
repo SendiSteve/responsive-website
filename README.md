@@ -14,6 +14,6 @@ This is a dummy  responsive design website for some dummy IT firm
 > [bootstrap v3.3.7](https://getbootstrap.com/docs/3.3/)
 
 ### Libraries used
-> [jQuery v3.3.1](http://jquery.com)
-> [animate.css](https://daneden.github.io/animate.css/)
-> [Wow.js](https://wowjs.uk).
+* [jQuery v3.3.1](http://jquery.com)
+* [animate.css](https://daneden.github.io/animate.css/)
+* [Wow.js](https://wowjs.uk).
