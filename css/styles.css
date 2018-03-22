@@ -247,4 +247,51 @@ body {
 }
 .img-wrapper img:hover {
     transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+/* ===================================================================================
+                                            TEAM
+======================================================================================*/
+.team-member{
+    margin: 0 15px;    
+}
+.team-member-info  {
+    padding: 10px 0 30px 0;
+}
+h4.team-member-name {
+   font-size: 22px;
+   font-weight: 700;
+   letter-spacing: 1px;
+   padding-top: 2px;
+}
+h4.team-member-designation{
+   color: #34c6d3;
+   font-size: 15px;
+   font-weight: 700;
+   font-style: italic;
+   letter-spacing: 1px;
+   margin-top: 5px;
+}
+
+/* ===================================================================================
+                                            SOCIAL (Generic)
+======================================================================================*/
+.social-list li {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    list-style: none;
+    margin-left: 0; 
+    margin-right: 6px;
+    margin-top: 10px;
+}
+.social-icon i {
+    font-size: 17px;
+}
+.icon-gray {
+    color: #64707b;
+}
+.icon-gray i:hover{
+    color: #34c6d3;
 }
