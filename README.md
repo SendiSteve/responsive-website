@@ -13,8 +13,10 @@ This is a dummy  responsive design website for some dummy IT firm
 ### Frameworks used
 > [bootstrap v3.3.7](https://getbootstrap.com/docs/3.3/)
 
-### Libraries used
+### Libraries/Plugins used
 * [jQuery v3.3.1](http://jquery.com)
 * [animate.css](https://daneden.github.io/animate.css/)
 * [Wow.js](https://wowjs.uk)
-* O[wl Carosuel 2](https://owlcarousel2.github.io/OwlCarousel2/)
+* [wl Carosuel 2](https://owlcarousel2.github.io/OwlCarousel2/)
+* [counterUp](http://bfintal.github.io/Counter-Up/demo/demo.html)
+* [waypoints](http://imakewebthings.com/waypoints/)
