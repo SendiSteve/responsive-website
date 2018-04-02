@@ -1,6 +1,6 @@
  /* ===================================================================================
-                                             SERVICES
- ======================================================================================*/
+                                              SERVICES
+  ======================================================================================*/
  $(function () {
      // animate on scroll
      new WOW().init();
@@ -59,33 +59,48 @@
      });
  });
 
-  /* =====================================================================================
+ /* =====================================================================================
                                         CLIENTS
 ==========================================================================================*/
-$(function () {
-    $("#clients-list").owlCarousel({
-        items: 6,
-        autoplay: true,
-        smartSpeed: 700,
-        loop: true,
-        autoplayHoverPause: true
-    });
+ $(function () {
+     $("#clients-list").owlCarousel({
+         items: 6,
+         autoplay: true,
+         smartSpeed: 700,
+         loop: true,
+         autoplayHoverPause: true
+     });
 
-});
+ });
 
-/* =====================================================================================
-                                        NAVIGATION
-==========================================================================================*/
-// Show/Hide  transparent black navigation
-$(function(){
-    $(window).scroll(function(){
-        if ($(this).scrollTop() < 50) {
-            // hide navbar
-            $("nav").removeClass("vesco-top-nav")
-            
-        } else {
-            // show navbar
-            $("nav").addClass("vesco-top-nav")
-        }
-    });
-});
+ /* =====================================================================================
+                                         NAVIGATION
+ ==========================================================================================*/
+ // Show/Hide  transparent black navigation
+ $(function () {
+     $(window).scroll(function () {
+         if ($(this).scrollTop() < 50) {
+             // hide navbar
+             $("nav").removeClass("vesco-top-nav")
+             // back-to-top -button
+             $("#back-to-top").fadeOut();
+
+         } else {
+             // show navbar
+             $("nav").addClass("vesco-top-nav")
+             // show back to top button
+             $("#back-to-top").fadeIn();
+         }
+     });
+ });
+
+ $(function () {
+     $("a.smooth-scroll").click(function (event) {
+         event.preventDefault();
+         // get/return id like #about, #work, #team, and etc
+         var section = $(this).after("href");
+         $('html, body').animate({
+             scrollTop: $(section).offset().top - 64
+         }, 1250, "easeInOutExpo");
+     });
+ });
