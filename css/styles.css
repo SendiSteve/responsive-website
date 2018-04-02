@@ -500,7 +500,7 @@ ul.pricing-spec li p {
 footer {
     background-color: #41464b;
     padding-top: 30px;
-    border-top: 5px solid rgb(0, 0, 0, 0.1);
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
 }
 
 #contact-left h3,
