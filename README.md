@@ -20,3 +20,11 @@ This is a dummy  responsive design website for some dummy IT firm
 * [wl Carosuel 2](https://owlcarousel2.github.io/OwlCarousel2/)
 * [counterUp](http://bfintal.github.io/Counter-Up/demo/demo.html)
 * [waypoints](http://imakewebthings.com/waypoints/)
+
+### Validate HTML Code
+To validate and check your HTML for errors use...
+[The Markup Validation Service](https://validator.w3.org/#validate_by_input)
+
+### Validate CSS Code
+To validate and check your CSS for errors use...
+[The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator)
