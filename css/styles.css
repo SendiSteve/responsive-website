@@ -425,16 +425,19 @@ ul.pricing-spec li p {
     font-weight: 400;
     text-transform: uppercase;
 }
+
 .pricing-box-lg {
     padding: 90px 0;
     margin: 0;
     background-color: #34c6d3;
 }
+
 .pricing-box-lg h4.pricing-title {
-    color:#34c6d3;
+    color: #34c6d3;
     background-color: #fff;
 }
-.pricing-box-lg ul.pricing-spec li p{
+
+.pricing-box-lg ul.pricing-spec li p {
     color: #fff;
 }
 
@@ -570,5 +573,54 @@ form .form-control {
 }
 
 #footer-menu a:hover {
+    color: #34c6d3;
+}
+
+/* ===================================================================================
+                                            NAVBAR
+======================================================================================*/
+
+.navbar {
+    padding: 20px 0;
+}
+
+.vesco-top-nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 7px 0;
+}
+
+.vesco-nav-wrapper {
+    padding: 0 85px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav>li>a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
+    color: #34c6d3;
+    background: none;
+}
+.navbar-toggle {
+    background-color: rgba(0, 0, 0, .1);
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+.navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+.navbar-collapse {
+    max-height: none !important;
+}
+.vesco-top-nav ul.navbar-nav > li.active > a {
     color: #34c6d3;
 }
