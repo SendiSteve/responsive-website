@@ -10,7 +10,19 @@
 
 /* Medium Devices (landscape Tablets &d  Medium desktops */
 
-@media(min-width: 992px) and (max-width :1199px) {}
+@media(min-width: 992px) and (max-width :1199px) {
+    /* Mobile menu */
+    .navbar{
+        background: rgba(0,0,0,0.1);
+        padding: 0;
+    }
+    .navbar-nav{
+        float: left;
+    }
+    .vesco-nav-wrapper{
+        padding: 0;
+    }
+} 
 
 /* Small devices (Portrait tablets and small desktops */
 
