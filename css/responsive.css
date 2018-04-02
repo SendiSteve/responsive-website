@@ -125,5 +125,34 @@
 
 /* Extra Small Devices (Smaller devices) */
 @media (max-width: 320px) {
-    
+    /* service */
+    .service-item-icon {
+        width: 58px;
+        height: 58px;
+        padding: 7px;
+    }
+    .service-item-title h3 {
+        font-size: 17px;
+    }
+    /* About */
+    #about-content-box {
+        margin-top: 40px;
+    }
+    /* Testimonial */
+    .testimonial blockquote {
+        padding: 6px 30px;
+    }
+    .testimonial img {
+        max-width: 80px;
+    }
+    .testimonial blockquote:before {
+        left: 7px;
+    }
+    .testimonial blockquote:after {
+        right: 7px;
+    }
+    /* Footer */
+    #footer-copyrights {
+        text-align: center;
+    }
 }
