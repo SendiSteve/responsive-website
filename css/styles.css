@@ -306,7 +306,7 @@ h4.team-member-designation{
     background-image: url("../img/bg-testimonials.jpg");
 }
 #testimonials, .content-box{
-    background-color: rgba(0, 0, 0, .1)
+    /* background-color: rgba(0, 0, 0, .1) */
 }
 #customers-testimonials{
     padding: 50px 0; 
@@ -417,4 +417,11 @@ ul.pricing-spec li p{
     text-transform: uppercase;
     font-weight: 300;
     margin-top: 0;
+}
+
+/* ===================================================================================
+                                            CLIENTS
+======================================================================================*/
+.client{
+    padding: 40px 0;
 }
