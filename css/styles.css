@@ -147,7 +147,8 @@ body {
     text-align: center;
     margin: 0 0 30px 0;
 }
-.content-title-white h3{
+
+.content-title-white h3 {
     color: #fff;
 }
 
@@ -197,7 +198,8 @@ body {
 /* ===================================================================================
                                             ABOUT
 ======================================================================================*/
-#about-bg-diagonal{
+
+#about-bg-diagonal {
     width: 60%;
     height: 700px;
     float: right;
@@ -205,7 +207,6 @@ body {
     background-attachment: fixed;
     border-left: 200px solid #fff;
     border-top: 700px solid transparent;
-
 }
 
 #about-content-box {
@@ -222,32 +223,37 @@ body {
 #about-content-box-inner {
     display: table-cell;
     vertical-align: middle;
-
 }
-#about .content-title h3{
+
+#about .content-title h3 {
     text-align: left;
 }
-#about .content-title-underline{
+
+#about .content-title-underline {
     margin: 0 0 30px 0;
 }
-#about-desc p{
+
+#about-desc p {
     margin-bottom: 30px;
 }
 
 /* ===================================================================================
                                             WORK
 ======================================================================================*/
+
 .row.no-gutters [class*=col-] {
     padding-left: 0;
     padding-right: 0;
 }
 
-.img-wrapper{
+.img-wrapper {
     overflow: hidden;
 }
+
 .img-wrapper img {
     transition: transform .5s ease;
 }
+
 .img-wrapper img:hover {
     transform: scale(1.5);
     cursor: zoom-in;
@@ -256,66 +262,84 @@ body {
 /* ===================================================================================
                                             TEAM
 ======================================================================================*/
-.team-member{
-    margin: 0 15px;    
+
+.team-member {
+    margin: 0 15px;
 }
-.team-member-info  {
+
+.team-member-info {
     padding: 10px 0 30px 0;
 }
+
 h4.team-member-name {
-   font-size: 22px;
-   font-weight: 700;
-   letter-spacing: 1px;
-   padding-top: 2px;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
 }
-h4.team-member-designation{
-   color: #34c6d3;
-   font-size: 15px;
-   font-weight: 700;
-   font-style: italic;
-   letter-spacing: 1px;
-   margin-top: 5px;
+
+h4.team-member-designation {
+    color: #34c6d3;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 5px;
 }
 
 /* ===================================================================================
                                             SOCIAL (Generic)
 ======================================================================================*/
+
 .social-list li {
     width: 32px;
     height: 32px;
     display: inline-block;
     list-style: none;
-    margin-left: 0; 
+    margin-left: 0;
     margin-right: 6px;
     margin-top: 10px;
 }
+
 .social-icon i {
     font-size: 17px;
 }
-.icon-gray {
+
+.icon-gray i {
     color: #64707b;
 }
-.icon-gray i:hover{
+
+.icon-white i {
+    color: #fff;
+}
+
+.social-icon i:hover {
     color: #34c6d3;
 }
 
 /* ===================================================================================
                                             TESTIMONIAL
 ======================================================================================*/
-#testimonials-cover{
+
+#testimonials-cover {
     background-image: url("../img/bg-testimonials.jpg");
 }
-#testimonials, .content-box{
+
+#testimonials,
+.content-box {
     /* background-color: rgba(0, 0, 0, .1) */
 }
-#customers-testimonials{
-    padding: 50px 0; 
+
+#customers-testimonials {
+    padding: 50px 0;
 }
-.testimonial img{
+
+.testimonial img {
     max-width: 120px;
     margin: 0 auto 0 auto;
 }
-.testimonial blockquote{
+
+.testimonial blockquote {
     border: 0;
     font-family: Georgia, sans-serif;
     font-style: italic;
@@ -323,9 +347,11 @@ h4.team-member-designation{
     padding: 6px 150px;
     position: relative;
 }
-.testimonial p{
+
+.testimonial p {
     color: #fff;
 }
+
 .testimonial blockquote::before,
 .testimonial blockquote::after {
     font-size: 80px;
@@ -335,33 +361,39 @@ h4.team-member-designation{
     height: 30px;
     position: absolute;
 }
-.testimonial blockquote::before{
+
+.testimonial blockquote::before {
     content: "\201C";
     top: 0;
     left: 100px;
 }
+
 .testimonial blockquote::after {
     content: "\201D";
     bottom: 0;
     right: 100px;
 }
+
 .testimonial-author p {
     color: #fff;
     font-size: 17px;
 }
-.testimonial-author p strong{
-   display: block;
+
+.testimonial-author p strong {
+    display: block;
 }
 
 /* ===================================================================================
                                             PRICING
 ======================================================================================*/
-.pricing-box{
+
+.pricing-box {
     border: 3px solid #34c6d3;
     padding: 50px 0;
     margin: 40px 0;
 }
-h4.pricing-title{
+
+h4.pricing-title {
     background-color: #34c6d3;
     color: #fff;
     display: inline-block;
@@ -371,21 +403,25 @@ h4.pricing-title{
     text-transform: uppercase;
     margin: 0 0 30px 0;
 }
-h3.pricing-value{
+
+h3.pricing-value {
     font-size: 60px;
     font-weight: 700;
 }
-h3.pricing-value suo{
+
+h3.pricing-value suo {
     font-size: 28px;
     vertical-align: super;
     font-weight: normal;
 }
-ul.pricing-spec{
+
+ul.pricing-spec {
     list-style: none;
     padding-left: 0;
-    margin: 20px 0 60px 0; 
+    margin: 20px 0 60px 0;
 }
-ul.pricing-spec li p{
+
+ul.pricing-spec li p {
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -393,18 +429,23 @@ ul.pricing-spec li p{
 /* ===================================================================================
                                             STARTS
 ======================================================================================*/
+
 #stats-cover {
     background-image: url("../img/bg-stats.jpg")
 }
+
 #stats .content-box {
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0, 0, 0, .8);
 }
+
 .stats-item {
     padding: 100px 0;
 }
+
 .stats-item i {
     color: #34c6d3;
 }
+
 .stats-item h2 {
     color: #fff;
     font-size: 35px;
@@ -412,7 +453,8 @@ ul.pricing-spec li p{
     margin-top: 15px;
     margin-bottom: 1px;
 }
-.stats-item p{
+
+.stats-item p {
     color: #fff;
     text-transform: uppercase;
     font-weight: 300;
@@ -422,6 +464,55 @@ ul.pricing-spec li p{
 /* ===================================================================================
                                             CLIENTS
 ======================================================================================*/
-.client{
+
+.client {
     padding: 40px 0;
+}
+
+/* ===================================================================================
+                                            CONTACT
+======================================================================================*/
+
+footer {
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgb(0, 0, 0, 0.1);
+}
+
+#contact-left h3,
+#contact-right h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#contact-info {
+    background-image: url(../img/world-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+address {
+    color: #fff;
+}
+
+address strong,
+#phone-fax-email strong {
+    letter-spacing: 1px;
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff;
 }
