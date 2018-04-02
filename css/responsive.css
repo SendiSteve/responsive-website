@@ -81,7 +81,7 @@
     /* Buttons */
     .btn-general {
         padding: 6px 22px 6px 22px;
-        font-size: 14px;    
+        font-size: 14px;
     }
     /* About - remove diagonal border */
     #about-bg-diagonal {
@@ -99,14 +99,25 @@
     .img-wrapper img {
         min-width: 100%;
     }
+    /* Testimonial section */
+    .testimonial blockquote {
+        padding: 6px 50px;
+    }
+    .testimonial blockquote:before {
+        left: 10px;
+    }
+    .testimonial blockquote:after {
+        right: 10px;
+    }
+    .testimonial blockquote p{
+        font-size: 16px;
+    }
 }
 
 /* Extra Small Devices (Smaller devices) */
-@media (max-width: 480px){
 
-}
+@media (max-width: 480px) {}
 
 /* Extra Small Devices (Smaller devices) */
-@media (max-width: 320px){
-    
-}
+
+@media (max-width: 320px) {}
