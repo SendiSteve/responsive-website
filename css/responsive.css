@@ -112,12 +112,18 @@
     .testimonial blockquote p{
         font-size: 16px;
     }
+    /* Footer */
+    #footer-copyrights {
+        text-align: center;
+    }
 }
 
 /* Extra Small Devices (Smaller devices) */
-
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    /* OK */
+}
 
 /* Extra Small Devices (Smaller devices) */
-
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+    
+}
