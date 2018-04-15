@@ -1,5 +1,7 @@
 # Responsive-website
-This is a dummy  responsive design website for some dummy IT firm
+This is a dummy  responsive design website for some dummy IT firm.
+
+Checkout the [demo](https://dummy-vesco.000webhostapp.com/responsive-website/responsive-website/)
 
 ### Fonts used
 > [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed?selection.family=Roboto+Condensed:300,300i,400,400i,700,700i)
